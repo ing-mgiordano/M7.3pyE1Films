@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Films</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            background-color: rgb(132, 132, 150);
+        }
+
+        th, td{
+            padding: 10px
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">Films</h1>
+
+    <table align="center">
+        <tr>
+            <th>Title</th>
+            <th>Rating</th>
+            <th>OrderYear</th>
+            <th>CommingSoon</th>
+            <th>AccionSeries</th>
+            <th>AverageRating</th>
+        </tr>
+        <tr>
+            <td id="titlesFilms"></td>
+            <td id="imbdRating"></td>
+            <td id="orderByYearFilm"></td>
+            <td id="titlesComming"></td>
+            <td id="titlesAccionSeries"></td>
+            <td id="averagerating" align="center"></td>
+        </tr>
+        <tr>
+            <td align="center"><button id="filmsTitleButton">Title</button></td>
+            <td align="center"> <button id="filmsRatingButton">Rating</button></td>
+            <td align="center"><button id="orderYearButton">OrderByYear</button></td>
+            <td align="center"><button id="titlesCommingButton">CommingSoon</button></td>
+            <td align="center"><button id="buttonAccionSeries">AccionSeries</button></td>
+            <td align="center"> <button id="buttonAverage">AverageRating</button></td>
+        </tr>
+    </table>
+
+    <script type='module' src="index.js"></script>
+</body>
+</html>
